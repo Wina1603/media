@@ -39,7 +39,7 @@ $desktop: 1200px;
   font-size: 15px;
 }
 
-@media (max-width: $desktop) {
+@media (min-width: $desktop) {
   .container {
     background-color: $color-4;
   }
