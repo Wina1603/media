@@ -36,7 +36,7 @@ $desktop: 1200px;
   top: 60%;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 9px;
+  font-size: 15px;
 }
 
 @media (min-width: $desktop) {
@@ -53,6 +53,12 @@ $desktop: 1200px;
 @media (max-width: $tablet) {
   .container {
     background-color: $color-2;
+  }
+}
+
+@media (max-width: $mobile) {
+  .container {
+    background-color: $color-1;
   }
 }
 
